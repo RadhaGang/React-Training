@@ -1,0 +1,95 @@
+.container{
+    font-style: italic;
+    color: blue;
+    border: 1px solid brown;
+     position:absolute;
+  top:20%;
+  left:50%;
+  margin-top:-40px; /* this is half the height of your div*/  
+  margin-left:-11%; /*this is half of width of your div*/
+  background-color: lemonchiffon;
+  padding: 5px;
+      width: 30%;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    
+}
+.header{
+
+    background: lightgreen;
+    text-shadow: 2px gray;
+     border: 1px solid brown;
+       background-color: dodgerblue;
+       color: white;
+       padding: 5px;
+          margin: 3px;
+              font-weight: bold;
+   
+}
+.Game{
+    border: 2px solid sandybrown;
+        margin: 3px;
+}
+.status{display: flex;
+    justify-content: center;
+    
+    }
+.status p{
+    font-weight:bold;
+    color: black;
+    background: mediumseagreen;
+        font-style: initial;
+    margin: 7px;
+    padding: 5px;
+
+}
+.PlayBox{
+
+    border: 3px solid green;
+    width: 70%;
+    display: flex;
+    margin: 7px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+}
+
+.play-area {
+  display: grid;
+  /*width: 300px;
+  height: 300px;*/
+  grid-template-columns: auto auto auto;
+}
+.block {
+  display: flex;
+  width: 87px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 1px solid brown;;
+  transition: background 0.2s ease-in-out;
+}
+.resetbutton button{
+        display: flex;
+    background: red;
+    justify-content: center;
+    color: white;
+    font-family: initial;
+    border-radius: 6px;
+    margin-left: 40%;
+    padding: 5px;
+    width: 80px;
+}
+
+.resetbutton{
+    margin: 7px;
+}
+
+.btn{
+    height:120px;
+    width:120px;
+    font-size: 50px;
+  }
