@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+
+.header{
+    background-color:cornflowerblue;
+    padding:20px;
+    
+    
+}
+.header h1{   
+    text-shadow: -5px -5px 5px gray;
+}
+
+.header h1 a{
+    color: purple;
+    text-decoration: none;
+}
+.nav li{
+    display:inline;    
+    padding-right:10px;
+}
+.nav li a{
+    color:purple;
+    text-decoration: none;
+}
+
+.app{
+
+        font-style: italic;
+        color: blue;
+        border: 1px solid brown;
+         position:absolute;
+      top:20%;
+      left:50%;
+      margin-top:-40px; /* this is half the height of your div*/  
+      margin-left:-11%; /*this is half of width of your div*/
+      background-color: lemonchiffon;
+      padding: 5px;
+          width: 30%;
+          margin-bottom: 40px;
+          margin-top: 20px;
+        
+    
+}
+
+.container{
+    padding-top:20px;
+}
+
+.game{
+    width:470px;
+    border:2px solid orange;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status-message{
+    font-family: 'Shadows Into Light', cursive;
+    text-align:center;
+}
+
+.board{
+    width:240px;
+    /* border: 5px solid greenyellow; */
+}
+
+
+.cell{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-top: none;
+    border-right: none;
+    
+    /*font-family: 'Shadows Into Light', cursive;*/
+    /* font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    width:80px;
+    height:80px;
+    background-color:white;
+    border:1px solid brown; */
+}
+.board-row{
+
+    border-top: white;
+   
+}
+
+
+.board-row3{
+
+    border-left: white;
+    border-right: white;
+    border-bottom: none;
+
+
+}
+
+.cellWin{
+    /*font-family: 'Shadows Into Light', cursive;*/
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    width:80px;
+    height:80px;
+    background-color:green;
+    border:1px solid brown;
+}
+
+.reset-button{    
+    background-color: crimson;   
+    color:white;
+    width:120px;
+    height:40px;
+    margin:5px;
+    border-radius: 10px;
+}
